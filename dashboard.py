@@ -5,13 +5,13 @@ import matplotlib.pyplot as plt
 
 # Load Data Function
 def load_data():
-    df = pd.read_csv("fraud.xls")  # Use your correct file path here
+    df = pd.read_csv("fraud.xls") 
     return df
 
 df = load_data()
 
 # Title of the Dashboard
-st.title("UPI Fraud Detection Dashboard")
+st.title("Fraud Detection Dashboard")
 
 # Display Dataset
 if st.checkbox('Show raw data'):
